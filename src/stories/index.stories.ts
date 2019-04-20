@@ -7,8 +7,5 @@ storiesOf('Button', module).add('with text', () => ({
   `,
   moduleMetadata: {
     imports: [I18nModule]
-  },
-  props: {
-    text: 'Hello Button'
   }
 }));
